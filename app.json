@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "简版教务处系统",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon-home.png",
+        "selectedIconPath": "images/icon-home.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "成绩",
+        "iconPath": "images/icon-grades.png",
+        "selectedIconPath": "images/icon-grades.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "课表",
+        "iconPath": "images/icon-courses.png",
+        "selectedIconPath": "images/icon-courses.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "个人",
+        "iconPath": "images/icon-info.png",
+        "selectedIconPath": "images/icon-info.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "关于",
+        "iconPath": "images/icon-about.png",
+        "selectedIconPath": "images/icon-about.png"
+      }
+    ]
+  }
+}

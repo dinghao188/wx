@@ -1,0 +1,34 @@
+/**login.wxss**/
+.section {
+  padding: 10px 0;
+}
+
+.head {
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: "YouYuan";
+  letter-spacing: 2px;
+}
+
+.form-group {
+  font-family: "YouYuan";
+  font-size: 1.5rem
+}
+.form-group > input {
+  height: 3rem;
+  border-bottom: 1px solid #ccc;
+  margin: 5px 0;
+}
+.form-group > button {
+  margin: 20px 0 0 0;
+  font-size: 1.5rem;
+  font-family: "YouYuan";
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0, 47, 255, 0.692);
+}
+
+.foot {
+  font-size: 1rem;
+  color: #ccc;
+}

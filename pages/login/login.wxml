@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='section head'>登录
+  </view>
+  <view class='section form-group'>
+    <input type='text' placeholder='请输入学号' bindinput='inputId'/>
+    <input type='text' placeholder='请输入密码' bindinput='inputPwd'/>
+    <button bindtap='login'>登 录</button>
+  </view>
+  <view class='section foot'>{{test}}
+  </view>
+</view>

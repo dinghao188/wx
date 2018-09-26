@@ -1,0 +1,6 @@
+/* pages/index/index.wxss */
+.header {
+  text-align: center;
+  font-family: "YouYuan";
+  font-size: 2rem;
+}
