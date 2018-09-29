@@ -1,0 +1,54 @@
+<!--pages/grade/grade.wxml-->
+<view class='container'>
+  <view class='all'>
+    <view class='header'>所有学期</view>
+    <view class='gpa_table'>
+      <view class='gpa_tr'>
+        <view class='gpa_td' style='width:50%;font-weight:bold;'>-</view>
+        <view class='gpa_td' style='width:25%;font-weight:bold;'>总学分</view>
+        <view class='gpa_td' style='width:25%;font-weight:bold;'>GPA</view>
+      </view>
+      <view class='gpa_tr'>
+        <view class='gpa_td' style='width:50%;font-weight:bold;'>所有课程</view>
+        <view class='gpa_td' style='width:25%;'>{{all_credit0}}</view>
+        <view class='gpa_td' style='width:25%;'>{{all_gpa0}}</view>
+      </view>
+      <view class='gpa_tr'>
+        <view class='gpa_td' style='width:50%;font-weight:bold;'>必修课程</view>
+        <view class='gpa_td' style='width:25%;'>{{all_credit1}}</view>
+        <view class='gpa_td' style='width:25%;'>{{all_gpa1}}</view>
+      </view>
+    </view>
+  </view>
+
+  <view  class="grade_table" wx:for="{{scores}}" wx:for-index="index1" wx:key="index">
+    <view class='header'>当前学期：{{item.term}}</view>
+    <view class='caption'>
+      <view style='flex:2'>课程名称</view>
+      <view style='flex:1'>学分</view>
+      <view style='flex:1'>成绩</view>
+    </view>
+    <view class='grade_item' wx:for="{{scores[index1].course}}" wx:key="index">
+      <view style='flex:2'>{{item[1]}}</view>
+      <view style='flex:1'>{{item[4]}}</view>
+      <view style='flex:1'>{{item[2]}}</view>
+    </view>
+    <view class='gpa_table'>
+      <view class='gpa_tr'>
+        <view class='gpa_td' style='width:50%;font-weight:bold;'>-</view>
+        <view class='gpa_td' style='width:25%;font-weight:bold;'>总学分</view>
+        <view class='gpa_td' style='width:25%;font-weight:bold;'>GPA</view>
+      </view>
+      <view class='gpa_tr'>
+        <view class='gpa_td' style='width:50%;font-weight:bold;'>所有课程</view>
+        <view class='gpa_td' style='width:25%;'>{{item.term_credit0}}</view>
+        <view class='gpa_td' style='width:25%;'>{{item.term_gpa0}}</view>
+      </view>
+      <view class='gpa_tr'>
+        <view class='gpa_td' style='width:50%;font-weight:bold;'>必修课程</view>
+        <view class='gpa_td' style='width:25%;'>{{item.term_credit1}}</view>
+        <view class='gpa_td' style='width:25%;'>{{item.term_gpa1}}</view>
+      </view>
+    </view>
+  </view>
+</view>

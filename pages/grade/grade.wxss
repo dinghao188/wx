@@ -1,0 +1,52 @@
+/* pages/grade/grade.wxss */
+view {
+  padding: 2px 0;
+}
+.header {
+  font-size: 1.3rem;
+  color: #aaa;
+  text-align: right;
+  border-bottom: 1px solid #ccc;
+}
+
+.caption {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.caption > view {
+  text-align: center;
+}
+
+.all {
+  border: 1px solid #aaa;
+  margin-bottom: 20px;
+}
+
+.grade_table {
+  border: 1px solid #aaa;
+  margin: 0 0 20px 0;
+}
+.grade_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grade_item > view {
+ text-align: center;
+}
+
+.gpa_table {
+  display: table;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+.gpa_tr {
+  display: table-row;
+}
+.gpa_td {
+  display: table-cell;
+  width: 30%;
+}

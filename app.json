@@ -2,7 +2,10 @@
   "pages": [
     "pages/index/index",
     "pages/login/login",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/info/info",
+    "pages/about/about",
+    "pages/grade/grade"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -20,7 +23,7 @@
         "selectedIconPath": "images/icon-home.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/grade/grade",
         "text": "成绩",
         "iconPath": "images/icon-grades.png",
         "selectedIconPath": "images/icon-grades.png"
@@ -32,13 +35,13 @@
         "selectedIconPath": "images/icon-courses.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/info/info",
         "text": "个人",
         "iconPath": "images/icon-info.png",
         "selectedIconPath": "images/icon-info.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/about/about",
         "text": "关于",
         "iconPath": "images/icon-about.png",
         "selectedIconPath": "images/icon-about.png"

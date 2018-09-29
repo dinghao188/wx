@@ -1,6 +1,31 @@
 /* pages/index/index.wxss */
 .header {
-  text-align: center;
   font-family: "YouYuan";
-  font-size: 2rem;
+  font-size: 1.5rem;
+  color: #ddd;
+  border-bottom: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.input_group {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid lightblue;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  padding-top: 20px;
+}
+.input_group > input {
+  height: 2.5rem;
+  flex: 3;
+}
+.input_group > text {
+  flex: 2;
+  text-align: right;
+  font-weight: bold;
+}
+
+.button_group {
+  padding-top: 20px;
 }

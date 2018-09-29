@@ -1,0 +1,11 @@
+/* pages/info/info.wxss */
+.header {
+  font-size: 1.5rem;
+  color: #ddd;
+  border-bottom: 1px solid #ccc;
+}
+
+.info {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}

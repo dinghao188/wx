@@ -27,6 +27,9 @@ Page({
     } else {
       wx.setStorageSync('username', this.data.username)
       wx.setStorageSync('pwd', this.data.pwd)
+      wx.switchTab({
+        url: '/pages/info/info',
+      })
     }
   }
 })

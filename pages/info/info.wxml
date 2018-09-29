@@ -1,0 +1,13 @@
+<!--pages/info/info.wxml-->
+<view class='container'>
+  <view class='header'>个人信息</view>
+  <view class='info'>
+    <text>学号：{{username}}
+    
+          密码：{{pwd}}
+    </text>
+  </view>
+  <view>
+    <button type='warn' bindtap='logout'>注销</button>
+  </view>
+</view>

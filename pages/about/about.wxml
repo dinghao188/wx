@@ -1,0 +1,11 @@
+<!--pages/about/about.wxml-->
+<view class='container'>
+  <view class='img'><image src='/images/icon-app.png' mode='aspectFit'></image></view>
+  <view class='intro'>
+    这是一个假的教务处
+  </view>
+  <view class='footer'>
+    <view style='text-align: center;'>版本信息：<text class='blue'>0.0.1</text></view>
+    <view style='text-align: center;'>开发者信息：<text class='blue'>丁浩</text></view>
+  </view>
+</view>

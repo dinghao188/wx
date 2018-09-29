@@ -1,4 +1,27 @@
 <!--pages/index/index.wxml-->
 <view class='container'>
-  <view class='header'>人生自古谁无死</view>
+  <view class='header'>发布失物信息</view>
+  <view class='input_group'>
+    <text>丢卡者学号：</text>
+    <input bindinput='inputId' type='text' placeholder='输入丢卡者的学号'/>
+  </view>
+  <view class='input_group'>
+    <text>请联系我：</text>
+    <input bindinput='inputWho' type='text' placeholder='输入您的联系方式'/>
+  </view>
+  <view class='button_group'>
+    <button type='primary' bindtap='publishLoss'>发布失物信息</button>
+  </view>
+  <view class='header'>发布寻物信息</view>
+  <view class='input_group'>
+    <text>你的学号：</text>
+    <input bindinput='inputId' type='text' placeholder='输入你的学号'/>
+  </view>
+  <view class='input_group'>
+    <text>请联系我：</text>
+    <input bindinput='inputWho' type='text' placeholder='输入您的联系方式'/>
+  </view>
+  <view class='button_group'>
+    <button type='primary' bindtap='searchLoss'>发布寻物信息</button>
+  </view>
 </view>
